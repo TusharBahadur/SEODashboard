@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from 'react'
 import { useState,useEffect } from 'react';
 import axios from 'axios';
@@ -16,9 +17,9 @@ const Results = () => {
     const location = useLocation();
     const text = location.state;
     const [apiResponse, setApiResponse] = useState(null);
-    const [apiResponseString, setApiResponseString] = useState(null);
+    // const [apiResponseString, setApiResponseString] = useState(null);
     const [apiResponse2, setApiResponse2] = useState(null);
-    const [apiResponseString2, setApiResponseString2] = useState(null);
+    // const [apiResponseString2, setApiResponseString2] = useState(null);
     console.log(text)
  
 
@@ -51,7 +52,7 @@ const Results = () => {
               const result = response.data.tasks;
               // Set the API response in state
               setApiResponse(result);
-              setApiResponseString(JSON.stringify(result, null, 2));
+              // setApiResponseString(JSON.stringify(result, null, 2));
             })
             .catch(function (error) {
               console.error(error);
@@ -75,7 +76,7 @@ const Results = () => {
               const result = response.data.tasks;
               // Set the API response in state
               setApiResponse2(result);
-              setApiResponseString2(JSON.stringify(result, null, 2));
+              // setApiResponseString2(JSON.stringify(result, null, 2));
             })
             .catch(function (error) {
               console.error(error);

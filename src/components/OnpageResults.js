@@ -1,3 +1,4 @@
+// eslint-disable-next-line
 import React from 'react'
 
 const OnpageResults = ({ilc,elc,noi,soi,sc,pts,ptr,ptw,ss,ari,cri,dlr,fkri,sri,dcc,tcc,time}) => {
