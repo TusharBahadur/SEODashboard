@@ -5,7 +5,7 @@
   text-align: center;
 } */
 
-.poi{
+.Detail{
   margin-top: 40px;
 }
 
@@ -41,7 +41,13 @@ body{
   
   
 }
-.kopo{
+
+.Social{
+  margin-top: 100px;
+  margin-bottom: 2px;
+}
+
+.socialimage{
   width: 40%;
   height: 40%;
   margin-left: 40px;;
@@ -53,6 +59,7 @@ body{
   flex-direction: column;
   align-items: center;
   text-align: center;
+  margin-top: 30px;
 }
 
 .table-and-image {
@@ -87,20 +94,18 @@ body{
 }
 
 
-.po{
-  margin-bottom: 30px;
-}
-
 .grid{
   margin-top: 100px;
 }
 
-.koko{
-  margin-left: 110px ;
+
+.Spinner{
+  margin-left: 670px;
+  margin-top: 300px;
+  
 }
 
-
-.imagewa{
+.imaging{
   height: 50%;
   width: 50%;
   /* margin-left: -60px;
@@ -109,11 +114,16 @@ body{
   object-fit: cover;
 }
 
+.form{
+  margin-left: 500px;
+  margin-top: 100px;
+}
+
 
 .input{
   font-size:20px;
   color:#2c3e50 ;
-  width:100%;
+  width:50%;
   border:none;
   outline:none;
   margin-top: 40px ;
@@ -147,9 +157,6 @@ body{
   }
 }
 
-.uio{
-  display: flex;
-}
 
 
 .App-header {
@@ -166,6 +173,8 @@ body{
 .App-link {
   color: #61dafb;
 }
+
+
 
 @keyframes App-logo-spin {
   from {

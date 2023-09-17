@@ -14,7 +14,7 @@ const TodoForm = () => {
 };
 
   return (
-    <div>
+    <div className=''>
       <form className='form' onSubmit={onFormSubmit}>
         <input
           placeholder='Enter a URL'
@@ -23,7 +23,7 @@ const TodoForm = () => {
           value={text}
         /> 
         <Link to="/results" state={text}>
-        <button type='submit'>Analyze</button>
+        <button type='submit' className='btn btn-dark' style={{marginLeft:"50px",marginTop:"30px"}}>Analyze</button>
         </Link>
    
       </form>

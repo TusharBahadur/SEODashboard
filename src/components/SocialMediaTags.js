@@ -2,11 +2,12 @@ import React from 'react'
 
 const SocialMediaTags = ({title,desc,type,image,twitter_card,twitter_site,twitter_creator,text}) => {
   return (
-   
+    <div>
+    <h1 className='Social'>Social Media Tags</h1>
     <div className='tables'>
-        <h1>Social Media Tags</h1>
+        
         <div className='table-and-image'>
-    <table class="table" style={{width: "50%"}}>
+    <table className="table" style={{width: "50%"}}>
         
   <thead>
     <tr>
@@ -22,7 +23,7 @@ const SocialMediaTags = ({title,desc,type,image,twitter_card,twitter_site,twitte
      
     </tr>
     <tr>
-      <th scope="row">Type</th>
+      <th scope="row">Types</th>
       <td>{type}</td>
      
     </tr>
@@ -54,8 +55,9 @@ const SocialMediaTags = ({title,desc,type,image,twitter_card,twitter_site,twitte
     
   </tbody>
 </table>
-<img src={image} alt="ohno" className='kopo'/>
+<img src={image} alt="alt" className='socialimage'/>
 
+</div>
 </div>
 </div>
   )
