@@ -54,7 +54,7 @@ const SocialMediaTags = ({title,desc,type,image,twitter_card,twitter_site,twitte
     
   </tbody>
 </table>
-<img src={image} className='kopo'/>
+<img src={image} alt="ohno" className='kopo'/>
 
 </div>
 </div>
