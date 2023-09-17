@@ -4,6 +4,7 @@ const DetailCards = ({dt,dc,duc,size,cache,canonical,four,five,http,broke,conten
 
     const cardStyle ={
         width:'22rem',
+        // height:'22rem',
         marginLeft :'32px'
     }
 
